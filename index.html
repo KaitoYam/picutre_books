@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--jQueryをCDNから取得-->
+  <script type="text/javascript" src="turnjs4/lib/turn.js"></script>
+</head>
+
+<body>
+  <div id="flipbook">
+    <div class = "hard">cover</div>
+    <div class = "hard"></div>
+    <div class = "page">page1</div>
+    <div class = "page">page2</div>
+    <div class = "page">page3</div>
+    <div class = "page">page4</div>
+    <div class = "page">page5</div>
+    <div class = "page">page6</div>
+    <div class = "hard"></div>
+    <div class = "hard">cover</div>
+  </div>
+</body>
+<script type="text/javascript">
+  $("#flipbook").turn({
+  });
+</script>
+
+</html>

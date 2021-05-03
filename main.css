@@ -1,0 +1,21 @@
+body{
+  background-color: #f5f5f5;
+}
+
+
+div {
+  color: black; /* 文字色を白色に */
+}
+
+.page {
+  background-color: white;/* 奇数ページを青色に */
+}
+
+.hard{
+  background-color: black;
+}
+#flipbook {
+  width: 900px; /* flipbook自体の横幅なので各ページは200px */
+  height: 550px;
+  margin: 10% 20%; /* 一番左端だとたまに見切れるので適当に移動 */
+}
